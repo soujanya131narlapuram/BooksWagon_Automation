@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class ReadPropertyFile {
 
-    String propertyFilePath = "C:\\Users\\atulk\\IdeaProjects\\AutomationBooksWagon\\TestData.properties";
+    String propertyFilePath = "C:\\Users\\narla\\AppData\\Roaming\\JetBrains\\IdeaIC2023.1\\scratches\\TestData.properties";
     public Properties properties;
 
     public ReadPropertyFile() throws IOException {
