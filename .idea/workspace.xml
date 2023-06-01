@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28de91ec-ee10-43c3-82e8-cf7b029db6c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TestData.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/base/Baseclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/base/Baseclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/pages/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/pages/AddToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/pages/AddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/pages/AddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/utility/ReadPropertyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/utility/ReadPropertyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/bookswagon/test/BooksWagonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/bookswagon/test/BooksWagonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +58,8 @@
       <recent name="C:\Users\narla\IdeaProjects\BooksWagon1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="BooksWagonTest.homepageSearchActivity" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BooksWagonTest.AddressSave">
+    <configuration name="BooksWagonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BooksWagon1" />
       <extension name="coverage">
         <pattern>
@@ -62,7 +69,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz.bookswagon.test" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.bookswagon.test.BooksWagonTest" />
-      <option name="METHOD_NAME" value="homepageSearchActivity" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BooksWagonTest.AddressSave" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BooksWagon1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.bookswagon.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.bookswagon.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.bookswagon.test.BooksWagonTest" />
+      <option name="METHOD_NAME" value="AddressSave" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -70,9 +94,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BooksWagonTest.homepageSearchActivity" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BooksWagon1" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.bookswagon.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.bridgelabz.bookswagon.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.bookswagon.test.BooksWagonTest" />
+      <option name="METHOD_NAME" value="homepageSearchActivity" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BooksWagonTest.placeOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BooksWagon1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.bookswagon.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.bookswagon.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.bookswagon.test.BooksWagonTest" />
+      <option name="METHOD_NAME" value="placeOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BooksWagonTest.wishlistCheckActivity" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BooksWagon1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.bookswagon.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.bookswagon.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.bookswagon.test.BooksWagonTest" />
+      <option name="METHOD_NAME" value="wishlistCheckActivity" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.BooksWagonTest" />
+      <item itemvalue="TestNG.BooksWagonTest.AddressSave" />
+      <item itemvalue="TestNG.BooksWagonTest.placeOrder" />
+      <item itemvalue="TestNG.BooksWagonTest.wishlistCheckActivity" />
+      <item itemvalue="TestNG.BooksWagonTest.homepageSearchActivity" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BooksWagonTest.AddressSave" />
+        <item itemvalue="TestNG.BooksWagonTest.placeOrder" />
+        <item itemvalue="TestNG.BooksWagonTest.wishlistCheckActivity" />
         <item itemvalue="TestNG.BooksWagonTest.homepageSearchActivity" />
+        <item itemvalue="TestNG.BooksWagonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685523240224</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;BooksWagon automation practice&quot;">
+      <created>1685528918945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685528918945</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

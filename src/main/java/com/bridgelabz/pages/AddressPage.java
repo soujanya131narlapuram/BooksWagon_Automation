@@ -43,7 +43,7 @@ public class AddressPage {
     WebElement saveNext;
 
     @CacheLookup
-    @FindBy(linkText = "Soujanya narlapuram")
+    @FindBy(linkText = "soujanya")
     WebElement account;
 
     @CacheLookup
@@ -70,14 +70,14 @@ public class AddressPage {
         Thread.sleep(500);
         cName.sendKeys("flipkart");
         Thread.sleep(500);
-        address.sendKeys("address of the user");
+        address.sendKeys("");
         Thread.sleep(500);
         Select state1 = new Select(state);
         state1.selectByValue("telengana");
         Thread.sleep(500);
         Select city1 = new Select(city);
         city1.selectByValue("hyderabad");
-        pincode.sendKeys("");
+        pincode.sendKeys("500088");
         Thread.sleep(500);
         mobile.sendKeys("9381220872");
         Thread.sleep(500);

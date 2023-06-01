@@ -39,7 +39,7 @@ public class BooksWagonTest extends Baseclass {
 
 
         @Test(priority = 0, dataProvider = "testData", dataProviderClass = DataProviderLogic.class)
-        public void homepageSearchActivity(String mob, String pass) throws InterruptedException, AWTException {
+        public void homepageSearch(String mob, String pass) throws InterruptedException, AWTException {
             login.loginToBooksWagon(mob, pass);
             Thread.sleep(500);
             home.searchBook();
@@ -47,7 +47,7 @@ public class BooksWagonTest extends Baseclass {
         }
 
         @Test(priority = 1, dataProvider = "testData", dataProviderClass = DataProviderLogic.class)
-        public void wishlistCheckActivity(String mob, String pass) throws InterruptedException, AWTException {
+        public void wishlistCheck(String mob, String pass) throws InterruptedException, AWTException {
             login.loginToBooksWagon(mob, pass);
             Thread.sleep(500);
             wish.wishlistCheck();
@@ -62,7 +62,7 @@ public class BooksWagonTest extends Baseclass {
         }
 
         @Test(priority = 3, dataProvider = "testData", dataProviderClass = DataProviderLogic.class)
-        public void AddressSave(String mob, String pass) throws InterruptedException, AWTException {
+        public void yourAddressSaving(String mob, String pass) throws InterruptedException, AWTException {
             login.loginToBooksWagon(mob, pass);
             Thread.sleep(1000);
             address.fillAddress();

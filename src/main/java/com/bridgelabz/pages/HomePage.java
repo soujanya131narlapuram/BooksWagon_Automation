@@ -44,7 +44,7 @@ public class HomePage {
 
     public void logout() throws InterruptedException, AWTException {
         Robot robot = new Robot();
-        Point coordinate = driver.findElement(By.linkText("Surabhi Sanjan")).getLocation();
+        Point coordinate = driver.findElement(By.linkText("soujanya")).getLocation();
         robot.mouseMove((int) coordinate.getX()+10, (int) coordinate.getY()+120);
         Thread.sleep(2000);
         logoutBtn.click();

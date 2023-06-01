@@ -14,7 +14,7 @@ public class Baseclass {
     public static Logger log;
     public void setup(){
         log = Logger.getLogger(Baseclass.class.getName());
-        PropertyConfigurator.configure("C:\\Users\\atulk\\IdeaProjects\\AutomationBooksWagon\\log4j.properties");
+        PropertyConfigurator.configure("C:\\Users\\narla\\IdeaProjects\\BooksWagon1\\src\\log4j.properties");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");

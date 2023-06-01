@@ -63,10 +63,12 @@ public class AddToCart {
         driver.switchTo().frame(0);
         Thread.sleep(1000);
         qty.click();
+        Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_CONTROL);
         robot.keyPress(KeyEvent.VK_A);
         robot.keyRelease(KeyEvent.VK_CONTROL);
         robot.keyRelease(KeyEvent.VK_A);
+        Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_BACK_SPACE);
         robot.keyPress(KeyEvent.VK_BACK_SPACE);
         Thread.sleep(500);
@@ -76,8 +78,7 @@ public class AddToCart {
         Thread.sleep(2000);
         placeOrder.click();
         Thread.sleep(1000);
-        deliver.click();
-        Thread.sleep(2000);
+
     }
 
 }
